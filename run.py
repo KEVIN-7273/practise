@@ -1,4 +1,4 @@
-a = 100
+a = 160
 print("a:", a)
 
 massage = "Hello world!"
