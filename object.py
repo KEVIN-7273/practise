@@ -29,3 +29,18 @@ print("result1: ", result1)
 
 result2 = ceil(98.7)  # yaxshlitlash
 print("result2: ", result2)
+
+
+print("==== Error Handling System ====")
+car_dict = dict(name="Toyota", year=2027, electric=True)
+
+try:
+    print("Passed here")
+    result = car_dict["year"]
+    print("result: ", result)
+except KeyError as err:
+    print("No origin state property found: ", err)
+else:
+    print("Executed successfully")
+finally:
+    print("Final closing logic")
